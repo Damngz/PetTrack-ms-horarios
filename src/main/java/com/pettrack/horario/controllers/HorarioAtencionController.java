@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/horarios")
 @CrossOrigin
+@RequestMapping("/horarios")
 public class HorarioAtencionController {
   private final HorarioAtencionService horarioService;
 

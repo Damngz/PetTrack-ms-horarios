@@ -8,6 +8,7 @@ class HorarioApplicationTests {
 
 	@Test
 	void contextLoads() {
+		HorarioApplication.main(new String[] {});
 	}
 
 }
